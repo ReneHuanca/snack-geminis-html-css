@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="0.198" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eeae18"/>
+      <stop offset="0.335" stop-color="#ee1818"/>
+      <stop offset="1" stop-color="#b81111"/>
+    </linearGradient>
+  </defs>
+  <g id="icon-ub" transform="translate(-114 -657)">
+    <rect id="Rectángulo_159" data-name="Rectángulo 159" width="24" height="24" transform="translate(114 657)" fill="none"/>
+    <path id="ic_pin_drop_24px" d="M16.315,7.222a5.222,5.222,0,1,0-10.445,0c0,3.917,5.222,9.574,5.222,9.574S16.315,11.139,16.315,7.222Zm-6.963,0a1.741,1.741,0,1,1,1.741,1.741A1.746,1.746,0,0,1,9.352,7.222ZM7.406,19.845V18.017h7.578v1.828Z" transform="translate(115 658.592)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
