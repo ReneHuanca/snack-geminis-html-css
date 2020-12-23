@@ -614,25 +614,15 @@ section .home-content article{
     position: relative;
     z-index: 102;
 }
-.wrap-sucursales::before{
-    content: '';
-    width: 0;
-    height: 96.6%;
-    left: 100%;
-    position: absolute;
-    transform: scaleX(-1);
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-right: 25px solid ;
-    z-index: -1;
-}
+
 .sucursal{
     height: 150px;
     display: flex;
     flex-direction: row ;
     align-items: center;
     background: rgba(0,0,0,0.1);
-    border-bottom: solid 10px var(--color-second);
+    margin-bottom: 1em;
+    border-radius: 5px;
     box-shadow: 0px 0px 10px var(--color-second) inset;
 }
 .sucursal--icon{
@@ -646,6 +636,11 @@ section .home-content article{
     padding:0 25px;
 }
 
+@media screen and (max-width: 800px) {
+    .sucursal {
+        font-size: .7em;
+    }
+}
 
 /* contactos */
 
@@ -673,7 +668,7 @@ section .home-content article{
 
     bottom: -25px;
     font-size: 1.5em;
-    padding-left: 20px;
+    padding-left: 0px;
 
 }
 .form-contact--input input{
@@ -702,8 +697,8 @@ section .home-content article{
 }
 .form-contact--input input[type="submit"]:hover{
     background: linear-gradient(to bottom,var(--color-first),var(--color-second));
- 
 }
+
 /**
  * FOOTER
  *
